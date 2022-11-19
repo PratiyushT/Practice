@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .form {
+    margin-bottom: 0.8rem;
+  }
+  
+  button {
+    margin-top: 0.5rem;
+    background: rgb(54, 43, 209);
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: rgb(90, 80, 240);
+  }
