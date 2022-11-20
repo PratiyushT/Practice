@@ -1,4 +1,4 @@
-function mergeSort(arr) {
+function mergeSort(arr=[]) {
     //Base condition
     if (arr.length <= 1) return arr;
 
@@ -59,4 +59,4 @@ function makeArr(arr, start, length) {
     return arrHalf
 }
 
-console.log(mergeSort());
+console.log(mergeSort([77,55,66,121,32,55,756,23,765,1,7,2,4,2,0]));
